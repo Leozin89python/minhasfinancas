@@ -1,0 +1,9 @@
+package com.dev.minhasfinancas;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.dev.minhasfinancas.entities.Usuario;
+
+public interface UsuarioRepositoryTest extends JpaRepository<Usuario, Long>{
+
+}

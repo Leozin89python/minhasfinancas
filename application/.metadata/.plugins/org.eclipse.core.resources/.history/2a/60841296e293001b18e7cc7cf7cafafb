@@ -1,0 +1,4 @@
+INSERT INTO financas.usuario VALUES(1,'Mendes Sousa','mendes@gmail.com','1234');
+
+
+INSERT INTO financas.lancamento VALUES(1,'usuario 1',3,2021,100.4,1);

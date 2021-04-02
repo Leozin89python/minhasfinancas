@@ -21,12 +21,6 @@ import org.springframework.data.convert.Jsr310Converters;
 import com.dev.minhasfinancas.Enum.StatusLancamento;
 import com.dev.minhasfinancas.Enum.TipoLancamento;
 
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
-
 @Entity
 @Table(name = "lancamento" , schema = "financas")
 public class Lancamento implements Serializable{

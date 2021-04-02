@@ -31,3 +31,6 @@ DROP TABLE financas.lancamento
 
 SELECT * FROM financas.usuario;
 SELECT * FROM financas.lancamento;
+
+INSERT INTO financas.usuario VALUES(1,'Mendes Sousa','mendes@gmail.com','1234');
+
